@@ -6,9 +6,7 @@ import matplotlib.pyplot as plt
 
 # Reading the dataset from the given URL
 # This dataset contains various features of cars, including engine size and CO2 emissions
-df = pd.read_csv(
-    'https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs'
-    '/FuelConsumptionCo2.csv')
+df = pd.read_csv('../datasets/FuelConsumption.csv')
 
 # Selecting specific columns for the analysis
 cdf = df[['ENGINESIZE', 'CO2EMISSIONS']]
