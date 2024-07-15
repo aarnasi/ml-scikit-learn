@@ -3,6 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
 
+# This script reads GDP data of China from a CSV file, fits a sigmoid function to the data,
+# and visualizes the original data along with the fitted curve.
 
 # Define the sigmoid function
 def sigmoid(input_data, beta_1, beta_2):

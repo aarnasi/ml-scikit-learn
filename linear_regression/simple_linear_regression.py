@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 # Reading the dataset from the given URL
 # This dataset contains various features of cars, including engine size and CO2 emissions
-df = pd.read_csv('../datasets/FuelConsumption.csv')
+df = pd.read_csv('../datasets/fuel_comsumption_data.csv')
 
 # Selecting specific columns for the analysis
 cdf = df[['ENGINESIZE', 'CO2EMISSIONS']]
