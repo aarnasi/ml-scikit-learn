@@ -9,7 +9,7 @@ from sklearn import linear_model
 
 
 # Read the data from the CSV file
-dataframe = pd.read_csv("../datasets/FuelConsumption.csv")
+dataframe = pd.read_csv("../datasets/fuel_comsumption_data.csv")
 
 # Select the relevant columns for the analysis
 subset_data_frame = dataframe[['ENGINESIZE', 'CYLINDERS', 'FUELCONSUMPTION_COMB', 'CO2EMISSIONS']]
