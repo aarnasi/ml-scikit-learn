@@ -23,7 +23,7 @@ Here are some of the key examples included in this repository:
 
 ## Installation
 ```
-git clone https://github.com/yourusername/ml-scikit-learn-samples.git
+git clone https://github.com/aarnasi/ml-scikit-learn-samples.git
 cd ml-scikit-learn-samples
 pip install -r requirements.txt
 ```
