@@ -1,4 +1,4 @@
-# ml-scikit-learn-samples
+# ml-scikit-learn
 
 Welcome to the ML Scikit-Learn Samples repository! This project provides a collection of scripts demonstrating various machine learning algorithms and techniques using the Scikit-learn library.
 
